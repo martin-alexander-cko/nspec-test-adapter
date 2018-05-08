@@ -23,3 +23,7 @@ The logic to discover test examples, along with the logic to run selected test e
 # Existing Test Adapter
 
 There is already a test adapter at https://github.com/nspec/DotNetTestNSpec, which leverages the dotnet test command line interface. However it currenly supports only old porjects based on .NET Core Tools Preview 2, the ones with project.json and .xproj files.
+
+# Using vstest.console.exe
+
+![TestAdapterCli](/pictures/testadaptercli.png)
