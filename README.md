@@ -27,3 +27,8 @@ There is already a test adapter at https://github.com/nspec/DotNetTestNSpec, whi
 # Using vstest.console.exe
 
 ![TestAdapterCli](/pictures/testadaptercli.png)
+
+# Microsoft.Net.Test.Sdk
+
+Microsoft.Net.Test.Sdk injects OutputType
+https://andrewlock.net/fixing-the-error-program-has-more-than-one-entry-point-defined-for-console-apps-containing-xunit-tests/

@@ -1,0 +1,95 @@
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.482, 47951254487, vstest.console.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.486, 47951262686, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.487, 47951265226, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolved assembly. 
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.488, 47951267359, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.489, 47951269547, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolved assembly. 
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.492, 47951277784, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolving assembly.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.492, 47951279743, vstest.console.dll, AssemblyResolver: Microsoft.TestPlatform.TestHostRuntimeProvider: Resolved assembly. 
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.493, 47951282621, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolving assembly.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.494, 47951284717, vstest.console.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger: Resolved assembly. 
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.495, 47951287602, vstest.console.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.495, 47951288139, vstest.console.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.496, 47951288624, vstest.console.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.496, 47951288966, vstest.console.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.496, 47951289317, vstest.console.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.508, 47951322782, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is starting.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.508, 47951323345, vstest.console.dll, RunTestsArgumentProcessor:Execute: Queuing Test run.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.508, 47951323931, vstest.console.dll, TestRequestManager.RunTests: run tests started.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.522, 47951363577, vstest.console.dll, AssemblyMetadataProvider.GetFrameWork: Determined framework:'.NETCoreApp,Version=v2.0' for source: 'C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll'
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.522, 47951364249, vstest.console.dll, Determined framework for all sources: .NETCoreApp,Version=v2.0
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.524, 47951370561, vstest.console.dll, AssemblyMetadataProvider.GetArchitecture: Determined architecture:AnyCPU info for assembly: C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.527, 47951377652, vstest.console.dll, Determined platform for all sources: X86
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.529, 47951384741, vstest.console.dll, Compatible sources list : 
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.530, 47951385310, vstest.console.dll, C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.532, 47951392229, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.537, 47951405190, vstest.console.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.537, 47951407686, vstest.console.dll, TestPluginCache: Using directories for assembly resolution 'C:\Git\nspec-test-adapter\src\nspec.testadapter\bin\Debug\netstandard2.0'.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.538, 47951408378, vstest.console.dll, TestPluginCache: Updated the available extensions to 'C:\Git\nspec-test-adapter\src\nspec.testadapter\bin\Debug\netstandard2.0\nspec.TestAdapter.dll'.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.539, 47951411753, vstest.console.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DefaultTestHostManager
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.539, 47951412947, vstest.console.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.Hosting.DotnetTestHostManager
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.540, 47951414056, vstest.console.dll, TestEngine: Initializing Parallel Execution as MaxCpuCount is set to: 1
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.540, 47951414895, vstest.console.dll, InferRunSettingsHelper.IsTestSettingsEnabled: Unable to navigate to RunSettings/MSTest. Current node: RunSettings
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.554, 47951453365, vstest.console.dll, TestRequestSender is acting as server
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.555, 47951458358, vstest.console.dll, TestRunRequest.ExecuteAsync: Creating test run request.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.556, 47951460057, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.556, 47951461229, vstest.console.dll, TestRunRequest.ExecuteAsync: Starting run with settings:TestRunCriteria:
+   KeepAlive=False,FrequencyOfRunStatsChangeEvent=10,RunStatsChangeEventTimeout=00:00:01.5000000,TestCaseFilter=,TestExecutorLauncher=
+   Settingsxml=<RunSettings>
+  <RunConfiguration>
+    <ResultsDirectory>C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\TestResults</ResultsDirectory>
+    <TargetPlatform>X86</TargetPlatform>
+    <TargetFrameworkVersion>.NETCoreApp,Version=v2.0</TargetFrameworkVersion>
+    <TestAdaptersPaths>C:\Git\nspec-test-adapter\src\nspec.testadapter\bin\Debug\netstandard2.0</TestAdaptersPaths>
+    <DesignMode>False</DesignMode>
+    <CollectSourceInformation>False</CollectSourceInformation>
+  </RunConfiguration>
+</RunSettings>
+
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.557, 47951461619, vstest.console.dll, TestRunRequest.ExecuteAsync: Wait for the first run request is over.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.557, 47951463024, vstest.console.dll, ParallelProxyExecutionManager: Start execution. Total sources: 1
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.558, 47951464701, vstest.console.dll, ProxyParallelExecutionManager: Triggering test run for next source: C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.558, 47951465260, vstest.console.dll, ProxyParallelExecutionManager: No sources available for execution.
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.558, 47951465457, vstest.console.dll, ParallelProxyExecutionManager: Execution started. Started clients: 1
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:01.558, 47951465755, vstest.console.dll, TestRunRequest.ExecuteAsync: Started.
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.558, 47951466769, vstest.console.dll, ProxyExecutionManager: Test host is always Lazy initialize.
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.559, 47951467697, vstest.console.dll, TestRequestSender.InitializeCommunication: initialize communication. 
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:01.558, 47951467069, vstest.console.dll, TestRunRequest.WaitForCompletion: Waiting with timeout -1.
+TpTrace Information: 0 : 23140, 4, 2018/05/04, 16:51:01.570, 47951501032, vstest.console.dll, SocketServer: Listening on end point : 127.0.0.1:55303
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.574, 47951510472, vstest.console.dll, DotnetTestHostmanager: Full path of dotnet.exe is C:\Program Files\dotnet\dotnet.exe
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.574, 47951511284, vstest.console.dll, DotnetTestHostmanager: Adding  --runtimeconfig "C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.runtimeconfig.json" in args
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.574, 47951511802, vstest.console.dll, DotnetTestHostmanager: Adding  --depsfile "C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.deps.json" in args
+TpTrace Information: 0 : 23140, 4, 2018/05/04, 16:51:01.574, 47951512366, vstest.console.dll, AssemblyResolver: Microsoft.Extensions.DependencyModel: Resolving assembly.
+TpTrace Information: 0 : 23140, 4, 2018/05/04, 16:51:01.575, 47951514933, vstest.console.dll, AssemblyResolver: Microsoft.Extensions.DependencyModel: Resolved assembly. 
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.576, 47951516165, vstest.console.dll, DotnetTestHostmanager: Reading file C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.deps.json to get path of testhost.dll
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.610, 47951612454, vstest.console.dll, DotnetTestHostmanager: Relative path of testhost.dll with respect to package folder is microsoft.testplatform.testhost/15.7.0\lib/netstandard1.5/testhost.dll
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.613, 47951621621, vstest.console.dll, DotnetTestHostmanager: Looking for path microsoft.testplatform.testhost/15.7.0\lib/netstandard1.5/testhost.dll in folder C:\Users\Vladimir Aleksandrov\.dotnet\store\|arch|\|tfm|
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.613, 47951623123, vstest.console.dll, DotnetTestHostmanager: Looking for path microsoft.testplatform.testhost/15.7.0\lib/netstandard1.5/testhost.dll in folder C:\Users\Vladimir Aleksandrov\.nuget\packages
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.614, 47951623788, vstest.console.dll, DotnetTestHostmanager: Full path of testhost.dll is C:\Users\Vladimir Aleksandrov\.nuget\packages\microsoft.testplatform.testhost/15.7.0\lib/netstandard1.5/testhost.dll
+TpTrace Verbose: 0 : 23140, 5, 2018/05/04, 16:51:01.615, 47951627007, vstest.console.dll, DotnetTestHostManager: Starting process 'C:\Program Files\dotnet\dotnet.exe' with command line 'exec --runtimeconfig "C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.runtimeconfig.json" --depsfile "C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.deps.json" "C:\Users\Vladimir Aleksandrov\.nuget\packages\microsoft.testplatform.testhost/15.7.0\lib/netstandard1.5/testhost.dll" --port 55303 --endpoint 127.0.0.1:055303 --role client --parentprocessid 23140 --diag "C:\Git\nspec-test-adapter\log.host.18-05-04_16-51-01_57373_4.txt" --telemetryoptedin false'
+TpTrace Verbose: 0 : 23140, 5, 2018/05/04, 16:51:01.622, 47951647923, vstest.console.dll, Test Runtime launched
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:01.623, 47951649088, vstest.console.dll, TestRequestSender.WaitForRequestHandlerConnection: waiting for connection with timeout: 60000
+TpTrace Verbose: 0 : 23140, 5, 2018/05/04, 16:51:01.791, 47952126356, vstest.console.dll, Client connected, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.077, 47952937673, vstest.console.dll, TestRequestSender.CheckVersionWithTestHost: onMessageReceived received message: (ProtocolVersion) -> 2
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.091, 47952975990, vstest.console.dll, TestRequestSender.OnExecutionMessageReceived: Received message: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Git\\nspec-test-adapter\\log.host.18-05-04_16-51-01_57373_4.txt"}}
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.094, 47952984823, vstest.console.dll, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 23140, 7, 2018/05/04, 16:51:02.094, 47952985642, vstest.console.dll, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 23140, 4, 2018/05/04, 16:51:02.094, 47952985856, vstest.console.dll, TestRequestSender.StartTestRun: Sending test run with message: {"Version":2,"MessageType":"TestExecution.StartWithSources","Payload":{"AdapterSourceMap":{"_none_":["C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\Giropay.Tests.Unit.dll"]},"RunSettings":"<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\TestResults</ResultsDirectory>\r\n    <TargetPlatform>X86</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v2.0</TargetFrameworkVersion>\r\n    <TestAdaptersPaths>C:\\Git\\nspec-test-adapter\\src\\nspec.testadapter\\bin\\Debug\\netstandard2.0</TestAdaptersPaths>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n</RunSettings>","TestExecutionContext":{"FrequencyOfRunStatsChangeEvent":10,"RunStatsChangeEventTimeout":"00:00:01.5000000","InIsolation":false,"KeepAlive":false,"AreTestCaseLevelEventsRequired":false,"IsDebug":false,"TestCaseFilter":null,"FilterOptions":null},"Package":null}}
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.281, 47953515337, vstest.console.dll, TestRequestSender.OnExecutionMessageReceived: Received message: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":1,"Message":"No test is available in C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\Giropay.Tests.Unit.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again."}}
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.281, 47953516240, vstest.console.dll, TestRunRequest:SendTestRunMessage: Starting.
+TpTrace Information: 0 : 23140, 7, 2018/05/04, 16:51:02.281, 47953516735, vstest.console.dll, TestRunRequest:SendTestRunMessage: Completed.
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.321, 47953629818, vstest.console.dll, TestRequestSender.OnExecutionMessageReceived: Received message: {"Version":2,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.0042088","Metrics":{}},"LastRunTests":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":[]}}
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.321, 47953630613, vstest.console.dll, TestRequestSender.EndSession: Sending end session.
+TpTrace Information: 0 : 23140, 6, 2018/05/04, 16:51:02.336, 47953673001, vstest.console.dll, TestRequestSender.OnClientProcessExit: Test host process exited. Standard error: 
+TpTrace Information: 0 : 23140, 6, 2018/05/04, 16:51:02.337, 47953673800, vstest.console.dll, SocketServer: Stop: Cancellation requested. Stopping message loop.
+TpTrace Warning: 0 : 23140, 7, 2018/05/04, 16:51:02.337, 47953674648, vstest.console.dll, ProxyOperationManager: Timed out waiting for test host to exit. Will terminate process.
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.367, 47953761273, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Starting.
+TpTrace Information: 0 : 23140, 7, 2018/05/04, 16:51:02.368, 47953762494, vstest.console.dll, TestRunRequest:SendTestRunStatsChange: Completed.
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.368, 47953763252, vstest.console.dll, ParallelProxyExecutionManager: HandlePartialRunComplete: Total completed clients = 1, Run complete = True, Run canceled: False.
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.379, 47953793179, vstest.console.dll, TestRunRequest:TestRunComplete: Starting. IsAborted:False IsCanceled:False.
+TpTrace Information: 0 : 23140, 7, 2018/05/04, 16:51:02.380, 47953797686, vstest.console.dll, TestRunRequest:TestRunComplete: Completed.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:02.380, 47953797970, vstest.console.dll, TestRunRequest.Dispose: Starting.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:02.381, 47953798816, vstest.console.dll, TestRunRequest.Dispose: Completed.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:02.381, 47953799239, vstest.console.dll, TestRequestManager.RunTests: run tests completed, sucessful: True.
+TpTrace Information: 0 : 23140, 1, 2018/05/04, 16:51:02.381, 47953799719, vstest.console.dll, RunTestsArgumentProcessor:Execute: Test run is completed.
+TpTrace Verbose: 0 : 23140, 1, 2018/05/04, 16:51:02.381, 47953800130, vstest.console.dll, Executor.Execute: Exiting with exit code of 0
+TpTrace Verbose: 0 : 23140, 7, 2018/05/04, 16:51:02.380, 47953798311, vstest.console.dll, TestRequestSender.SetOperationComplete: Setting operation complete.

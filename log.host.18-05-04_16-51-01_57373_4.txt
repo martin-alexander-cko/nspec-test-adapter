@@ -1,0 +1,127 @@
+TpTrace Verbose: 0 : 14372, 1, 2018/05/04, 16:51:01.761, 47952045066, testhost.dll, TestRequestHanlder is acting as client
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:01.772, 47952071870, testhost.dll, DefaultEngineInvoker: Monitoring parent process with id: '23140'
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:01.777, 47952086148, testhost.dll, DefaultEngineInvoker: Initialize communication on endpoint address: '127.0.0.1:055303'
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:01.780, 47952096504, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:055303
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:01.788, 47952118572, testhost.dll, DefaultEngineInvoker: Start Request Processing.
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:01.792, 47952129878, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:055303
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:01.796, 47952142068, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:01.801, 47952154852, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:01.850, 47952293663, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:02.034, 47952816283, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 2
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:02.090, 47952974765, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Git\\nspec-test-adapter\\log.host.18-05-04_16-51-01_57373_4.txt"}}
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:02.090, 47952975640, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:02.095, 47952987574, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:02.107, 47953021741, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\Giropay.Tests.Unit.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\TestResults</ResultsDirectory>\r\n    <TargetPlatform>X86</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v2.0</TargetFrameworkVersion>\r\n    <TestAdaptersPaths>C:\\Git\\nspec-test-adapter\\src\\nspec.testadapter\\bin\\Debug\\netstandard2.0</TestAdaptersPaths>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:02.107, 47953022558, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:02.165, 47953187739, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.194, 47953268469, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.199, 47953283314, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.199, 47953284948, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Failed to load assembly.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.200, 47953287890, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.201, 47953288419, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.201, 47953288804, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.201, 47953289167, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.201, 47953289524, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.203, 47953293916, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Warning: 0 : 14372, 3, 2018/05/04, 16:51:02.220, 47953344312, testhost.dll, TestPluginDiscoverer: Failed to load extensions from file 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.dll'.  Skipping test extension scan for this file.  Error: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, IntPtr ptrLoadContextBinder)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromFiles[TPluginInfo,TExtension](String[] files, Dictionary`2 pluginInfos)
+
+
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.221, 47953345030, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.221, 47953345818, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Failed to load assembly.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.221, 47953346208, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.221, 47953346646, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.221, 47953347140, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.222, 47953347599, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.222, 47953347981, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.222, 47953349208, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Warning: 0 : 14372, 3, 2018/05/04, 16:51:02.224, 47953353714, testhost.dll, TestPluginDiscoverer: Failed to load extensions from file 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll'.  Skipping test extension scan for this file.  Error: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, IntPtr ptrLoadContextBinder)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromFiles[TPluginInfo,TExtension](String[] files, Dictionary`2 pluginInfos)
+
+
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.228, 47953366389, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.229, 47953370169, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.230, 47953370643, testhost.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.230, 47953371133, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.230, 47953371492, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.236, 47953390008, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.237, 47953390980, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Failed to load assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.237, 47953391889, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.237, 47953392399, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Common.resources: Resolved from cache.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.262, 47953463721, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.267, 47953477482, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.268, 47953478751, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.268, 47953479464, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.268, 47953480263, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.269, 47953481173, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.269, 47953481791, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.269, 47953482463, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.269, 47953483041, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.270, 47953485804, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension'.
+TpTrace Warning: 0 : 14372, 3, 2018/05/04, 16:51:02.273, 47953493276, testhost.dll, TestPluginDiscoverer: Failed to load extensions from file 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension.dll'.  Skipping test extension scan for this file.  Error: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.TestTools.CppUnitTestFramework.CppUnitTestExtension, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, IntPtr ptrLoadContextBinder)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromFiles[TPluginInfo,TExtension](String[] files, Dictionary`2 pluginInfos)
+
+
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.273, 47953494731, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.274, 47953495665, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.274, 47953496364, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.274, 47953497239, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolving assembly.
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.275, 47953497914, testhost.dll, AssemblyResolver: Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter: Resolved from cache.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.275, 47953498569, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.275, 47953499380, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.276, 47953501350, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter'.
+TpTrace Warning: 0 : 14372, 3, 2018/05/04, 16:51:02.278, 47953507168, testhost.dll, TestPluginDiscoverer: Failed to load extensions from file 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll'.  Skipping test extension scan for this file.  Error: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, IntPtr ptrLoadContextBinder)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.TestPluginDiscoverer.GetTestExtensionsFromFiles[TPluginInfo,TExtension](String[] files, Dictionary`2 pluginInfos)
+
+
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.278, 47953507993, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.278, 47953508456, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.278, 47953508836, testhost.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.279, 47953509209, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.279, 47953509591, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Warning: 0 : 14372, 3, 2018/05/04, 16:51:02.280, 47953514038, testhost.dll, No test is available in C:\Git\checkout-ap-giropay-gir-6-chakram\test\Giropay.Tests.Unit\bin\debug\netcoreapp2.0\Giropay.Tests.Unit.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.280, 47953514626, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":1,"Message":"No test is available in C:\\Git\\checkout-ap-giropay-gir-6-chakram\\test\\Giropay.Tests.Unit\\bin\\debug\\netcoreapp2.0\\Giropay.Tests.Unit.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again."}}
+TpTrace Information: 0 : 14372, 3, 2018/05/04, 16:51:02.290, 47953541178, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.321, 47953628839, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.0042088","Metrics":{}},"LastRunTests":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":[]}}
+TpTrace Verbose: 0 : 14372, 3, 2018/05/04, 16:51:02.321, 47953630335, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 14372, 8, 2018/05/04, 16:51:02.322, 47953631374, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:55303 localEndPoint: 127.0.0.1:55304
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:02.322, 47953632007, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 14372, 8, 2018/05/04, 16:51:02.322, 47953632391, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:02.323, 47953634152, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:055303
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:02.323, 47953634834, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 14372, 1, 2018/05/04, 16:51:02.323, 47953635767, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 14372, 1, 2018/05/04, 16:51:02.323, 47953636451, testhost.dll, Testhost process exiting.

@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "args": [
+                "build",
+                "${workspaceFolder}/src/nspec.testadapter/nspec.testadapter.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
