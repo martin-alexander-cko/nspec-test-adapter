@@ -1,18 +1,25 @@
 using System;
 using System.Reflection;
 using Microsoft.VisualStudio.TestPlatform.ObjectModel;
+using Microsoft.VisualStudio.TestPlatform.ObjectModel.Logging;
 using NSpec.Domain;
 
 namespace NSpec.TestAdapter
 {
     public static class Extensions
     {
-        public static TestCase ToTestCase(this ExampleBase example, string source, DiaSession diaSession)
+        public static TestCase ToTestCase(this ExampleBase example, string source, DiaSession diaSession, IMessageLogger logger)
         {
 
             var methodInfo = example.BodyMethodInfo;
             var specClassName = methodInfo.DeclaringType.FullName;
             string exampleMethodName = methodInfo.Name;
+
+            logger.SendMessage(TestMessageLevel.Warning, $"SpecClassName: {specClassName ?? "Null"}");
+            logger.SendMessage(TestMessageLevel.Warning, $"ExampleMethodName: {exampleMethodName ?? "Null"}");
+            logger.SendMessage(TestMessageLevel.Warning, $"Spec: {example.Spec ?? "Null"}");
+
+
             var navigationData = diaSession.GetNavigationData(specClassName, exampleMethodName);
 
             return new TestCase

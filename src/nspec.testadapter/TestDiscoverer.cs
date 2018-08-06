@@ -57,7 +57,7 @@ namespace NSpec.TestAdapter
                     }
                     logger.SendMessage(TestMessageLevel.Warning, assembly == null ? "Assembly NULL" : "Assembly OK");
 
-                    var testCases = new ExampleFinder().Find(binaryPath).Select(e => e.ToTestCase(binaryPath, diaSession));
+                    var testCases = new ExampleFinder().Find(binaryPath).Select(e => e.ToTestCase(binaryPath, diaSession, logger));
 
                     foreach (var testCase in testCases)
                     {
